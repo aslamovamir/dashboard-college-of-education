@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/dashboard-college-of-education/static/css/main.33088f0b.css",
+    "main.js": "/dashboard-college-of-education/static/js/main.00885932.js",
+    "static/js/787.5a60688f.chunk.js": "/dashboard-college-of-education/static/js/787.5a60688f.chunk.js",
+    "static/media/usf-logo.png": "/dashboard-college-of-education/static/media/usf-logo.3c7086c020504b90b40e.png",
+    "static/media/bull-logo.png": "/dashboard-college-of-education/static/media/bull-logo.edfca3684a6b5af695d7.png",
+    "static/media/usf-logo5.png": "/dashboard-college-of-education/static/media/usf-logo5.a26cfbe149462e09d820.png",
+    "index.html": "/dashboard-college-of-education/index.html",
+    "main.33088f0b.css.map": "/dashboard-college-of-education/static/css/main.33088f0b.css.map",
+    "main.00885932.js.map": "/dashboard-college-of-education/static/js/main.00885932.js.map",
+    "787.5a60688f.chunk.js.map": "/dashboard-college-of-education/static/js/787.5a60688f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.33088f0b.css",
+    "static/js/main.00885932.js"
+  ]
+}
