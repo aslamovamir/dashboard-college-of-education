@@ -7,7 +7,251 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.App {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #dee1e3;
+  font-size: large;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.header {
+  height: 110vh;
+}
+
+.navbar-style {
+  background-color: #384b52;
+  position: sticky;
+}
+
+/* .logo-usf {
+  height: 40x;
+  width: 90px;
+  position: relative;
+  bottom: 10px;
+  border: 5px outset gold;
+  border-radius: 50%;
+  background-color: #384b52;
+} */
+
+.icon-bar {
+  background: white;
+}
+
+li a {
+  color: white;
+}
+
+li a:hover {
+  color: black;
+  font-size: 25px;
+}
+
+.title-logo {
+  color: white;
+  font-size: 25px;
+  position: relative;
+  top: 8px;
+}
+
+.title-logo:hover {
+  color: white;
+  text-decoration: none;
+  font-size: 27px;
+  position: relative;
+  top: 8px;
+  text-decoration: underline;
+}
+
+.title {
+  background-color: #3f565e;
+  color: white;
+  height: 90px;
+  width: 900;
+  font-size: 50px;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  bottom: 20px;
+}
+
+.student-box {
+  width: 322px;
+  height: 450px;
+  margin-right: 20px;
+  margin-left: 100px;
+  margin-top: 40px;
+  border: 5px solid ;
+  border: 3px solid #3f565e;
+  border-radius: 10%;
+  position: relative;
+  top: 130px;
+  background-color:#3f565e;
+}
+
+.welcome-message {
+  font-size: 80px;
+  position: relative;
+  bottom: 200px;
+  left: 10px;
+  color: #384b52;
+}
+
+.bull {
+  width: 170px;
+  height: 170px;
+  border: 8px solid gold;
+  border-radius: 50%;
+  position: relative;
+  bottom: 200px;
+  left: 73px;
+}
+
+.bull:hover {
+  transform: scale(1.2);
+}
+
+.info {
+  padding: 20px;
+  margin: 20px;
+  position: relative;
+  right: 100px;
+  left: 1px;
+  bottom: 190px;
+  font-size: 17px;
+  color: white;
+}
+
+.statistics {
+  display: inline-flex;
+  position: relative;
+  top: 40px;
+}
+
+/* .academic_completion_block:hover {
+  width: 400px;
+  height: 400px;
+}
+
+.community_engagement_block:hover {
+  width: 400px;
+  height: 400px;
+}
+
+.global_experience_block:hover {
+  width: 400px;
+  height: 400px;
+} */
+
+.academic_completion_block {
+  position: relative;
+  right: 50px;
+}
+
+.community_engagement_block {
+  position: relative;
+  left: 5px;
+}
+
+.global_experience_block {
+  position: relative;
+  left: 65px;
+}
+
+.title-bar-1 {
+  font-size: 14px;
+  text-align: center;
+  position: relative;
+  font-weight: bold;
+  top: 20px;
+}
+
+.title-bar-2 {
+  font-size: 14px;
+  text-align: center;
+  position: relative;
+  font-weight: bold;
+  top: 20px;
+}
+
+.title-bar-3 {
+  font-size: 14px;
+  text-align: center;
+  position: relative;
+  font-weight: bold;
+  top: 20px;
+}
+
+.container-style {
+  width: 1px;
+  height: 330px;
+  background-color:#3f565e;
+  border-radius: 5%;
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  position: relative;
+  top: 60px;
+  right: 50px;
+  color: white;
+}
+
+.textarea-style {
+  position: relative;
+  left: 15px;
+}
+
+.button-input {
+  position: relative;
+  top: 10px;
+  left: 15px;
+  width: 635px;
+  background-color: darkgreen !important;
+}
+
+.feedback-label {
+  position: relative;
+  left: 14px;
+}
+
+.switches {
+  position: relative;
+  top: 10px;
+}
+
+
+@media  screen and (max-width: 600px) {
+  .header {
+    height: 200vh;
+  } 
+
+  .academic_completion_block {
+    position: relative;
+    width: 120px;
+  }
+  
+  .community_engagement_block {
+    position: relative;
+    width: 120px;
+  }
+  
+  .global_experience_block {
+    position: relative;
+    width: 120px;
+  }
+
+  .statistics {
+    position: relative;
+    top: 200px;
+    left: 90px;
+  }
+
+  .container-style {
+    position: relative;
+    top: 240px;
+    display: flex;
+  }
 }
